@@ -1,5 +1,5 @@
-import ARIFISTIFIK
-from ARIFISTIFIK import *
+import ekafiutama
+from ekafiutama import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from time import sleep
@@ -9,7 +9,7 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
-#ANTIJS_V2
+#botswar
 #cl = LineClient()
 cl = LineClient(authToken='EJMqC1BUNQ0lfrBG3pXc.e8XfWwRYDmU4OkvEHIg6Va.kNCDqnh/rHGILkEK5MKiE7xsWYrDuHQpb1ILHWL+byk=')
 cl.log("Auth Token : " + str(cl.authToken))
