@@ -1,5 +1,5 @@
-import ARIFISTIFIK
-from ARIFISTIFIK import *
+import EKAFIUTAMA
+from EKAFIUTAMA import *
 from akad.ttypes import *
 from multiprocessing import Pool, Process
 from time import sleep
@@ -9,39 +9,39 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import youtube_dl
-#ANTIJS_V2
+#BOTSWAR
 #cl = LineClient()
-cl = LineClient(authToken='EJMqC1BUNQ0lfrBG3pXc.e8XfWwRYDmU4OkvEHIg6Va.kNCDqnh/rHGILkEK5MKiE7xsWYrDuHQpb1ILHWL+byk=')
+cl = LineClient(authToken='')
 cl.log("Auth Token : " + str(cl.authToken))
 channel = LineChannel(cl)
 cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='EJoFVIzzyn4nUzI6V8La.jan/f/6wCtikMmAou2oToG.vodYEvW+7JZJDQscH/z8NmIQKnrAI18SSmSUcXiawyQ=')
+ki = LineClient(authToken='')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
 
 #kk = LineClient()
-kk = LineClient(authToken='EJMSuWtPyZEWX8C6znh6.s4djoOcILzd1TYGh6xIfzG.B2hYXoIjCZANqRH0yOv1x/dXsMGA84UwnldFfpkh2ew=')
+kk = LineClient(authToken='')
 kk.log("Auth Token : " + str(kk.authToken))
 channel2 = LineChannel(kk)
 kk.log("Channel Access Token : " + str(channel2.channelAccessToken))
 
 #kc = LineClient()
-kc = LineClient(authToken='EJGMwsTzXHYUDX2O6cy3.sd4PJdJSCjcp/cSVb5aKGW.CytxprlM/22GvQoVwtGr8k9DMS3+qGekYoOClhDsW34=')
+kc = LineClient(authToken='')
 kc.log("Auth Token : " + str(kc.authToken))
 channel3 = LineChannel(kc)
 kc.log("Channel Access Token : " + str(channel3.channelAccessToken))
 
 #sw = LineClient()
-sw = LineClient(authToken='EJYmIxutMjCBdVyry7vb.EvNet86UyLdWIiatleJ3sW.yHe0vHnrwFVHq2KYl7uT10q80PIoDU13ki4qPMNjToQ=')
+sw = LineClient(authToken='')
 sw.log("Auth Token : " + str(sw.authToken))
 channel11 = LineChannel(sw)
 sw.log("Channel Access Token : " + str(channel11.channelAccessToken))
 
 #js = LineClient()
-js = LineClient(authToken='EJMDKVw2wrCmpCGXakZ4.K5mcQVLvccNF1Lyh6h5Vva.rxV5Ewmx1jeKIcGSXDtRKFWdQUGL5iZh6JPpvTUT2GU=')
+js = LineClient(authToken='')
 js.log("Auth Token : " + str(js.authToken))
 channel4 = LineChannel(js)
 js.log("Channel Access Token : " + str(channel4.channelAccessToken))
